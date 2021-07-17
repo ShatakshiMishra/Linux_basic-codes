@@ -1,0 +1,31 @@
+//Output
+echo "Hello"
+
+
+//Input Output
+read name
+echo "Welcome $name"
+
+
+//for loop
+for ((i=1;i<51;i++))
+do
+echo $i
+done
+
+
+//for loop to print in one line
+for ((i=1;i<51;i++))
+do
+echo -n  $i
+done
+
+
+//Arithmetic
+read x
+read y
+echo $((x+y))
+echo $((x-y))
+echo $((x*y))
+echo $((x/y))
+
